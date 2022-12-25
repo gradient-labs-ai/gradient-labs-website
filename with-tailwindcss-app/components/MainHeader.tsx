@@ -12,7 +12,7 @@ const products = [
   {
     name: 'VideoGen',
     description: 'Generate social media videos using AI.',
-    href: '#',
+    href: '/videogen',
     icon: ChartBarIcon,
   },
   {
