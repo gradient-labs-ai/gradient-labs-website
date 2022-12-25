@@ -1,6 +1,6 @@
 const navigation = {
     products: [
-        { name: 'VideoGen', href: '#' },
+        { name: 'VideoGen', href: '/videogen' },
         { name: 'Citation Hero', href: '/citation-hero' },
     ],
     resources: [
