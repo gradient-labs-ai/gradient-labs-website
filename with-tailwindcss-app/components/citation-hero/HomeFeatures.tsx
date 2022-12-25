@@ -24,7 +24,7 @@ export default function HomeFeatures() {
                     href="#"
                     className="inline-flex rounded-lg bg-citations-main-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-citations-main-600 hover:bg-citations-main-700 hover:ring-citations-main-700"
                   >
-                    Add to Chrome - It's Free
+                    Add to Chrome - It&abps;s Free
                   </a>
                 </div>
               </div>
@@ -84,7 +84,7 @@ export default function HomeFeatures() {
                     href="#"
                     className="inline-flex rounded-lg bg-citations-main-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-citations-main-600 hover:bg-citations-main-700 hover:ring-citations-main-700"
                   >
-                    Add to Chrome - It's Free
+                    Add to Chrome - It&abps;s Free
                   </a>
                 </div>
               </div>

@@ -30,7 +30,7 @@ export default function HomeCta() {
                 href="#"
                 className="mt-8 inline-flex items-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-citations-main-600 shadow hover:bg-citations-main-50"
             >
-                Add to Chrome - It's Free
+                Add to Chrome - It&abps;s Free
             </a>
             </div>
         </div>
