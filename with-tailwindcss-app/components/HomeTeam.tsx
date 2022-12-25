@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Example() {
   return (
     <div className="bg-gradient-to-t from-gray-50">
@@ -8,20 +10,20 @@ export default function Example() {
         </h2>
         <div className="mt-8 flex justify-center">
           <div className="inline-flex rounded-md shadow">
-            <a
+            <Link
               href="/about#contact"
               className="inline-flex items-center justify-center rounded-md border border-transparent bg-main-600 px-5 py-3 text-base font-medium text-white hover:bg-main-700"
             >
               Contact
-            </a>
+            </Link>
           </div>
           <div className="ml-3 inline-flex">
-            <a
+            <Link
               href="/about"
               className="inline-flex items-center justify-center rounded-md border border-transparent bg-main-100 px-5 py-3 text-base font-medium text-main-700 hover:bg-main-200"
             >
               About
-            </a>
+            </Link>
           </div>
         </div>
       </div>

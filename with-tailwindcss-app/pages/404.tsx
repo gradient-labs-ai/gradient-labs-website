@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Example() {
     return (
@@ -26,18 +27,18 @@ export default function Example() {
                   <p className="mt-1 text-base text-gray-500">Please check the URL in the address bar and try again.</p>
                 </div>
                 <div className="mt-10 flex space-x-3 sm:border-l sm:border-transparent sm:pl-6">
-                  <a
+                  <Link
                     href="/"
                     className="inline-flex items-center rounded-md border border-transparent bg-main-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-main-700 focus:outline-none focus:ring-2 focus:ring-main-500 focus:ring-offset-2"
                   >
                     Go back home
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/about#contact"
                     className="inline-flex items-center rounded-md border border-transparent bg-main-100 px-4 py-2 text-sm font-medium text-main-700 hover:bg-main-200 focus:outline-none focus:ring-2 focus:ring-main-500 focus:ring-offset-2"
                   >
                     Contact support
-                  </a>
+                  </Link>
                 </div>
               </div>
             </main>

@@ -1,4 +1,5 @@
 import { InboxIcon, SparklesIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
 
 export default function HomeProducts() {
   return (
@@ -20,12 +21,12 @@ export default function HomeProducts() {
                   viverra dui tellus ornare pharetra.
                 </p>
                 <div className="mt-6">
-                  <a
+                  <Link
                     href="#"
                     className="inline-flex rounded-lg bg-videos-main-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-videos-main-600 hover:bg-videos-main-700 hover:ring-videos-main-700"
                   >
                     Start Creating
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -80,12 +81,12 @@ export default function HomeProducts() {
                   viverra dui tellus ornare pharetra.
                 </p>
                 <div className="mt-6">
-                  <a
+                  <Link
                     href="/citation-hero"
                     className="inline-flex rounded-lg bg-citations-main-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-citations-main-600 hover:bg-citations-main-700 hover:ring-citations-main-700"
                   >
                     Start Citing
-                  </a>
+                  </Link>
                 </div>
             <div className="mt-8 border-t border-gray-200 pt-6">
               <blockquote>

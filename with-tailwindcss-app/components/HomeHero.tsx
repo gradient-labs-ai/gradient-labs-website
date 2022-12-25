@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -50,34 +51,36 @@ export default function HomeHero() {
                 <div className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                   <span className="text-gray-600">
                     Announcing flip coin version 2.{' '}
-                    <a href="/blog" className="font-semibold text-main-600">
-                      <span className="absolute inset-0" aria-hidden="true" />
-                      Read more <span aria-hidden="true">&rarr;</span>
-                    </a>
+                    <Link href="/blog" className="font-semibold text-main-600">
+                      
+                        <span className="absolute inset-0" aria-hidden="true" />
+                        Read more <span aria-hidden="true">&rarr;</span>
+                      
+                    </Link>
                   </span>
                 </div>
               </div>
               <div>
                 <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
-                    We build AI tools that make people&abps;s lives easier
+                    We build AI tools that make people&apos;s lives easier
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
                   Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
                   amet fugiat veniam occaecat fugiat aliqua.
                 </p>
                 <div className="mt-8 flex gap-x-4 sm:justify-center">
-                  <a
+                  <Link
                     href="#products"
                     className="inline-block rounded-lg bg-main-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-main-600 hover:bg-main-700 hover:ring-main-700"
                   >
                     Products
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/about"
                     className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
                   >
                     About
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
