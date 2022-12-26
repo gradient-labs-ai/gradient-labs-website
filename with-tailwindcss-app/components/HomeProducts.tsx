@@ -18,7 +18,7 @@ export default function HomeProducts() {
                 <p className="mt-4 text-lg text-gray-500">
                   Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
                   porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus
-                  viverra dui tellus ornare phareta.
+                  viverra dui tellus ornare pharetra.
                 </p>
                 <div className="mt-6">
                   <Link
