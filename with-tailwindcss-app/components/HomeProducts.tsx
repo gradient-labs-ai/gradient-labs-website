@@ -1,4 +1,4 @@
-import { VideoCameraIcon, BookOpenIcon } from '@heroicons/react/24/outline'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export default function HomeProducts() {
@@ -10,7 +10,7 @@ export default function HomeProducts() {
             <div>
               <div>
                 <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-videos-main-600">
-                  <VideoCameraIcon className="h-8 w-8 text-white" aria-hidden="true" />
+                  <Image src="/logos/citation-logo-white.svg" width="24" height="24" alt="" />
                 </span>
               </div>
               <div className="mt-6">
@@ -70,7 +70,7 @@ export default function HomeProducts() {
             <div>
               <div>
                 <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-citations-main-600">
-                  <BookOpenIcon className="h-8 w-8 text-white" aria-hidden="true" />
+                  <Image src="/logos/citation-logo-white.svg" width="24" height="24" alt="" />
                 </span>
               </div>
               <div className="mt-6">

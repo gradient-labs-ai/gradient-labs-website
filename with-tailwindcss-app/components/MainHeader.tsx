@@ -31,7 +31,7 @@ function classNames(...classes: Array<object>) {
 export default function MainHeader() {
   return (
     <div className="fixed top-0 left-0 w-full z-50">
-      <Popover className="relative backdrop-blur-md bg-white/[0.92]">
+      <Popover className="relative bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="flex items-center justify-between py-4 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
