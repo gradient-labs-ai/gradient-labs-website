@@ -16,7 +16,7 @@ export default function HomeProducts() {
               <div className="mt-6">
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900">Generate videos using AI</h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
+                  Semper curabitur ullamcorper posuere nunc sed. Ornare bibendum malesuada faucibus lacinia
                   porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus
                   viverra dui tellus ornare si.
                 </p>
