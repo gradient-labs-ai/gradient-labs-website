@@ -148,7 +148,7 @@ export default function AboutStory() {
               congue erat ac. Cras fermentum convallis quam.
             </p>
             <p>
-              Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
+              Faucibus commodo rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
               sed turpis id. Id praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
             </p>
           </div>
