@@ -10,7 +10,7 @@ export default function HomeProducts() {
             <div>
               <div>
                 <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-videos-main-600">
-                  <Image src="/logos/video-logo-white.svg" width="24" height="24" alt="" />
+                  <Image src="/logos/video-logo-white.svg" width="28" height="24" alt="" />
                 </span>
               </div>
               <div className="mt-6">
