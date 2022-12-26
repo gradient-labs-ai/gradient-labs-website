@@ -149,7 +149,7 @@ export default function AboutStory() {
             </p>
             <p>
               Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-              sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
+              sed turpis id. Id praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
             </p>
           </div>
         </div>
