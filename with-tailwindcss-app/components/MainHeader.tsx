@@ -8,6 +8,7 @@ import {
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const products = [
   {
@@ -38,11 +39,12 @@ export default function MainHeader() {
               <Link href="/">
                 
                   <span className="sr-only">Your Company</span>
-                  <img
-                    className="h-8 w-auto sm:h-10"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=gray&shade=600"
-                    alt=""
-                  />
+                  
+                  <h2 className="inline-flex items-center text-2xl font-bold text-gray-800">
+                    <Image src="/logos/gradient-labs-logo-gradient.svg" width="32" height="32" alt="" className="f-l" />
+                    &nbsp;&nbsp;Gradient Labs
+                  </h2>
+
                 
               </Link>
             </div>

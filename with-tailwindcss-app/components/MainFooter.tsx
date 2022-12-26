@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 interface IconProps {
@@ -78,12 +79,11 @@ const navigation = {
         </h2>
         <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-            <div className="space-y-8 xl:col-span-1">
-              <img
-                className="h-10"
-                src="https://tailwindui.com/img/logos/mark.svg?color=gray&shade=300"
-                alt="Company name"
-              />
+            <div className="space-y-8 xl:col-span-1">  
+            <Link href="/">
+              <Image src="/logos/gradient-labs-logo-black.svg" width="40" height="40" alt="" className="opacity-20" />
+            </Link>
+              
             </div>
             <div className="mt-12 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
               <div className="md:grid md:grid-cols-2 md:gap-8">
