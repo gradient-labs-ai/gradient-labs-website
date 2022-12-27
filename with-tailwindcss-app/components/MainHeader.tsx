@@ -158,7 +158,7 @@ export default function MainHeader() {
                         className="-m-3 flex items-center rounded-md p-3 hover:bg-gray-50"
                       >
                         
-                          <item.icon className="h-6 w-6 flex-shrink-0 text-main-600" aria-hidden="true" />
+                          <Image src={item.logo} width="24" height="24" alt="" />
                           <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
                         
                       </Link>
