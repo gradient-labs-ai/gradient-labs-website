@@ -19,7 +19,7 @@ export default function AboutHero() {
             <div className="relative mx-auto pt-24 max-w-md px-4 sm:pt-32 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
                 <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">About Gradient Labs</h1>
                 <p className="pt-6 max-w-3xl text-xl text-cyan-100">
-                At Gradient Labs, our mission is to democratize AI by making it more accessible to everyone. We believe that AI has the power to transform industries and improve people's lives, and we're committed to building tools and solutions that make it easy for individuals and organizations of all sizes to benefit from its capabilities.
+                At Gradient Labs, our mission is to democratize AI by making it more accessible to everyone. We believe that AI has the power to transform industries and improve people&apos;s lives, and we&apos;re committed to building tools and solutions that make it easy for individuals and organizations of all sizes to benefit from its capabilities.
                 </p>
             </div>
         </header>
