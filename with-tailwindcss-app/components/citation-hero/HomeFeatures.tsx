@@ -67,7 +67,7 @@ export default function HomeFeatures() {
               <div className="mt-6">
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900">Add in seconds</h2>
                 <p className="mt-4 text-lg text-gray-500">
-                Getting started with Citation Hero is quick and easy. Simply visit the Chrome Web Store and add the extension to your browser. Once it's installed, you can start using Citation Hero right away.
+                Getting started with Citation Hero is quick and easy. Simply visit the Chrome Web Store and add the extension to your browser. Once it&apos;s installed, you can start using Citation Hero right away.
                 </p>
                 <div className="mt-6">
                   <a
