@@ -30,9 +30,7 @@ const metrics = [
               Democratize Artificial Intelligence
             </p>
             <p className="mt-5 text-lg text-gray-300">
-              Rhoncus sagittis risus arcu erat lectus bibendum. Ut in adipiscing quis in viverra tristique sem. Ornare
-              feugiat viverra eleifend fusce orci in quis amet. Sit in et vitae tortor, massa. Dapibus laoreet amet lacus
-              nibh integer quis. Eu vulputate diam sit tellus quis at.
+            By making AI more accessible, we can help even the playing field and prevent inequality in the digital age. At Gradient Labs, we believe that everyone should have the opportunity to benefit from the transformative power of AI, regardless of their background or resources.
             </p>
             <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
               {metrics.map((item) => (

@@ -90,8 +90,7 @@ export default function HomeProducts() {
               <blockquote>
                 <div>
                   <p className="text-base text-gray-500">
-                    &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci risus aenean curabitur
-                    donec aliquet. Mi venenatis in euismod ut.&rdquo;
+                    &ldquo;Citation Hero is great... it saves me so much time going to sketchy citation generator websites.&rdquo;
                   </p>
                 </div>
                 <footer className="mt-3">
@@ -99,11 +98,11 @@ export default function HomeProducts() {
                     <div className="flex-shrink-0">
                       <img
                         className="h-6 w-6 rounded-full"
-                        src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                        src="https://socialhelix.io/dist/images/david.jpg"
                         alt=""
                       />
                     </div>
-                    <div className="text-base font-medium text-gray-700">Lorema Ispumio, Student</div>
+                    <div className="text-base font-medium text-gray-700">David Grossman, Student</div>
                   </div>
                 </footer>
               </blockquote>

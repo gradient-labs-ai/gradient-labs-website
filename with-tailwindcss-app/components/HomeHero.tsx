@@ -62,12 +62,8 @@ export default function HomeHero() {
               </div>
               <div>
                 <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
-                    We build AI tools that make people&apos;s lives easier
+                  We build AI tools that make people&apos;s lives easier
                 </h1>
-                <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
-                  amet fugiat veniam occaecat fugiat aliqua.
-                </p>
                 <div className="mt-8 flex gap-x-4 sm:justify-center">
                   <Link
                     href="#products"

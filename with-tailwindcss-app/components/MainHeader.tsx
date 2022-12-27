@@ -15,13 +15,13 @@ const products = [
     name: 'VideoGen',
     description: 'Generate social media videos using AI.',
     href: '/videogen',
-    icon: ChartBarIcon,
+    logo: '/logos/video-logo-red.svg',
   },
   {
     name: 'Citation Hero',
     description: 'Get instant citations while browsing the web.',
     href: '/citation-hero',
-    icon: CursorArrowRaysIcon,
+    logo: '/logos/citation-logo-green.svg',
   },
 ]
 
@@ -93,7 +93,7 @@ export default function MainHeader() {
                                 className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
                               >
                                 
-                                  <item.icon className="h-6 w-6 flex-shrink-0 text-main-600" aria-hidden="true" />
+                                  <Image src={item.logo} width="24" height="24" alt="" />
                                   <div className="ml-4">
                                     <p className="text-base font-medium text-gray-900">{item.name}</p>
                                     <p className="mt-1 text-sm text-gray-500">{item.description}</p>
