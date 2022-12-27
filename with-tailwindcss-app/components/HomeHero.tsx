@@ -50,11 +50,11 @@ export default function HomeHero() {
               <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                 <div className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                   <span className="text-gray-600">
-                    Announcing flip coin version 2.{' '}
-                    <Link href="/blog" className="font-semibold text-main-600">
+                    Announcing Citation Hero.{' '}
+                    <Link href="/citation-hero" className="font-semibold text-main-600">
                       
                         <span className="absolute inset-0" aria-hidden="true" />
-                        Read more <span aria-hidden="true">&rarr;</span>
+                        Learn more <span aria-hidden="true">&rarr;</span>
                       
                     </Link>
                   </span>
