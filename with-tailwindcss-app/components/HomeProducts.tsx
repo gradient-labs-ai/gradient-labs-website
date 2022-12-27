@@ -43,7 +43,7 @@ export default function HomeProducts() {
                     <div className="flex-shrink-0">
                       <img
                         className="h-6 w-6 rounded-full"
-                        src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                        src="/gifs/citation-hero-1"
                         alt=""
                       />
                     </div>
@@ -76,9 +76,7 @@ export default function HomeProducts() {
               <div className="mt-6">
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900">Cite any source in 2 clicks</h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
-                  porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus
-                  viverra dui tellus ornare pharetra.
+                Citation Hero is a free browser add-on that generates formatted citations for websites, books, journal articles, and more in various formats, including APA, MLA, Chicago, and Harvard.
                 </p>
                 <div className="mt-6">
                   <Link
@@ -117,7 +115,7 @@ export default function HomeProducts() {
             <div className="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
+                src="/citation-hero/main.gif"
                 alt="Customer profile user interface"
               />
             </div>

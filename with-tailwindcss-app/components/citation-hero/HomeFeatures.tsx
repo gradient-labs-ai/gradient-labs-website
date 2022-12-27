@@ -1,4 +1,4 @@
-import { InboxIcon, SparklesIcon } from '@heroicons/react/24/outline'
+import Image from 'next/image'
 
 export default function HomeFeatures() {
   return (
@@ -9,19 +9,17 @@ export default function HomeFeatures() {
             <div>
               <div>
                 <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-citations-main-600">
-                  <InboxIcon className="h-8 w-8 text-white" aria-hidden="true" />
+                  <Image src="/logos/citation-logo-white.svg" width="24" height="24" alt="" />
                 </span>
               </div>
               <div className="mt-6">
-                <h2 className="text-3xl font-bold tracking-tight text-gray-900">Stay on top of customer support</h2>
+                <h2 className="text-3xl font-bold tracking-tight text-gray-900">Cite any source in 2 clicks</h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
-                  porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus
-                  viverra dui tellus ornare pharetra.
+                Citation Hero is a free browser add-on that generates formatted citations for websites, books, journal articles, and more in various formats, including APA, MLA, Chicago, and Harvard.
                 </p>
                 <div className="mt-6">
                   <a
-                    href="#"
+                    href="https://chrome.google.com/webstore/detail/iojgjmcdmcekjmflcnmmcflcjmkmjmfi/preview?hl=en&authuser=0"
                     className="inline-flex rounded-lg bg-citations-main-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-citations-main-600 hover:bg-citations-main-700 hover:ring-citations-main-700"
                   >
                     Add to Chrome - It&apos;s Free
@@ -33,8 +31,7 @@ export default function HomeFeatures() {
               <blockquote>
                 <div>
                   <p className="text-base text-gray-500">
-                    &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci risus aenean curabitur
-                    donec aliquet. Mi venenatis in euismod ut.&rdquo;
+                    &ldquo;Citation Hero is great... it saves me so much time going to sketchy citation generator websites.&rdquo;
                   </p>
                 </div>
                 <footer className="mt-3">
@@ -46,7 +43,7 @@ export default function HomeFeatures() {
                         alt=""
                       />
                     </div>
-                    <div className="text-base font-medium text-gray-700">Marcia Hill, Harvard Student</div>
+                    <div className="text-base font-medium text-gray-700">Marcia Hill, Student</div>
                   </div>
                 </footer>
               </blockquote>
@@ -56,7 +53,7 @@ export default function HomeFeatures() {
             <div className="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
+                src="/citation-hero/main.gif"
                 alt="Inbox user interface"
               />
             </div>
@@ -67,21 +64,14 @@ export default function HomeFeatures() {
         <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
           <div className="mx-auto max-w-xl px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0">
             <div>
-              <div>
-                <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-citations-main-600">
-                  <SparklesIcon className="h-8 w-8 text-white" aria-hidden="true" />
-                </span>
-              </div>
               <div className="mt-6">
-                <h2 className="text-3xl font-bold tracking-tight text-gray-900">Better understand your customers</h2>
+                <h2 className="text-3xl font-bold tracking-tight text-gray-900">Add in seconds</h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
-                  porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus
-                  viverra dui tellus ornare pharetra.
+                Getting started with Citation Hero is quick and easy. Simply visit the Chrome Web Store and add the extension to your browser. Once it's installed, you can start using Citation Hero right away.
                 </p>
                 <div className="mt-6">
                   <a
-                    href="#"
+                    href="https://chrome.google.com/webstore/detail/iojgjmcdmcekjmflcnmmcflcjmkmjmfi/preview?hl=en&authuser=0"
                     className="inline-flex rounded-lg bg-citations-main-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-citations-main-600 hover:bg-citations-main-700 hover:ring-citations-main-700"
                   >
                     Add to Chrome - It&apos;s Free
@@ -94,7 +84,7 @@ export default function HomeFeatures() {
             <div className="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
+                src="https://media.istockphoto.com/id/469066852/photo/diverse-mid-adult-students-using-computers-during-class-in-college.jpg?b=1&s=170667a&w=0&k=20&c=I55LaIslEBIiSid1TfgNB6o7AqB3WXUP_EOnu-7yywc="
                 alt="Customer profile user interface"
               />
             </div>
