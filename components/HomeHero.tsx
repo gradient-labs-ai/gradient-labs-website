@@ -1,18 +1,18 @@
 /* This example requires Tailwind CSS v3.0+ */
-import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import Link from 'next/link'
+import { useState } from "react";
+import { Dialog } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Link from "next/link";
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
-]
+  { name: "Product", href: "#" },
+  { name: "Features", href: "#" },
+  { name: "Marketplace", href: "#" },
+  { name: "Company", href: "#" },
+];
 
 export default function HomeHero() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <div className="isolate bg-white">
@@ -50,12 +50,13 @@ export default function HomeHero() {
               <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                 <div className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                   <span className="text-gray-600">
-                    Announcing Citation Hero.{' '}
-                    <Link href="/citation-hero" className="font-semibold text-main-600">
-                      
-                        <span className="absolute inset-0" aria-hidden="true" />
-                        Learn more <span aria-hidden="true">&rarr;</span>
-                      
+                    Announcing Citation Hero.{" "}
+                    <Link
+                      href="/citation-hero"
+                      className="font-semibold text-main-600"
+                    >
+                      <span className="absolute inset-0" aria-hidden="true" />
+                      Learn more <span aria-hidden="true">&rarr;</span>
                     </Link>
                   </span>
                 </div>
@@ -111,5 +112,5 @@ export default function HomeHero() {
         </div>
       </main>
     </div>
-  )
+  );
 }

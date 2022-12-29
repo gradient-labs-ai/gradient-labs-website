@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const colors = require('tailwindcss/colors')
+const colors = require("tailwindcss/colors");
 
 module.exports = {
   content: [
@@ -16,11 +16,11 @@ module.exports = {
         citations: {
           main: colors.green,
         },
-      }
+      },
     },
   },
   plugins: [
-    require('@tailwindcss/aspect-ratio'),
-    require('@tailwindcss/typography'),
+    require("@tailwindcss/aspect-ratio"),
+    require("@tailwindcss/typography"),
   ],
-}
+};

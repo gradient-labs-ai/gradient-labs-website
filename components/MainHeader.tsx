@@ -1,32 +1,32 @@
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
+import { Fragment } from "react";
+import { Popover, Transition } from "@headlessui/react";
 import {
   Bars3Icon,
   ChartBarIcon,
   CursorArrowRaysIcon,
   XMarkIcon,
-} from '@heroicons/react/24/outline'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import Link from 'next/link'
-import Image from 'next/image'
+} from "@heroicons/react/24/outline";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import Link from "next/link";
+import Image from "next/image";
 
 const products = [
   {
-    name: 'VideoGen',
-    description: 'Generate social media videos using AI.',
-    href: '/videogen',
-    logo: '/logos/video-logo-red.svg',
+    name: "VideoGen",
+    description: "Generate social media videos using AI.",
+    href: "/videogen",
+    logo: "/logos/video-logo-red.svg",
   },
   {
-    name: 'Citation Hero',
-    description: 'Get instant citations while browsing the web.',
-    href: '/citation-hero',
-    logo: '/logos/citation-logo-green.svg',
+    name: "Citation Hero",
+    description: "Get instant citations while browsing the web.",
+    href: "https://citationhero.io?ref=gradientlabs.ai",
+    logo: "/logos/citation-logo-green.svg",
   },
-]
+];
 
 function classNames(...classes: Array<object>) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
 export default function MainHeader() {
@@ -37,15 +37,18 @@ export default function MainHeader() {
           <div className="flex items-center justify-between py-4 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <Link href="/">
-                
-                  <span className="sr-only">Your Company</span>
-                  
-                  <h2 className="inline-flex items-center text-2xl font-bold text-gray-800">
-                    <Image src="/logos/gradient-labs-logo-gradient.svg" width="32" height="32" alt="" className="f-l" />
-                    &nbsp;&nbsp;Gradient Labs
-                  </h2>
+                <span className="sr-only">Your Company</span>
 
-                
+                <h2 className="inline-flex items-center text-2xl font-bold text-gray-800">
+                  <Image
+                    src="/logos/gradient-labs-logo-gradient.svg"
+                    width="32"
+                    height="32"
+                    alt=""
+                    className="f-l"
+                  />
+                  &nbsp;&nbsp;Gradient Labs
+                </h2>
               </Link>
             </div>
             <div className="-my-2 -mr-2 md:hidden">
@@ -60,15 +63,15 @@ export default function MainHeader() {
                   <>
                     <Popover.Button
                       className={classNames([
-                        open ? 'text-gray-900' : 'text-gray-500',
-                        'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-main-500 focus:ring-offset-2'
+                        open ? "text-gray-900" : "text-gray-500",
+                        "group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-main-500 focus:ring-offset-2",
                       ])}
                     >
                       <span>Products</span>
                       <ChevronDownIcon
                         className={classNames([
-                          open ? 'text-gray-600' : 'text-gray-400',
-                          'ml-2 h-5 w-5 group-hover:text-gray-500'
+                          open ? "text-gray-600" : "text-gray-400",
+                          "ml-2 h-5 w-5 group-hover:text-gray-500",
                         ])}
                         aria-hidden="true"
                       />
@@ -92,13 +95,20 @@ export default function MainHeader() {
                                 href={item.href}
                                 className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
                               >
-                                
-                                  <Image src={item.logo} width="24" height="24" alt="" />
-                                  <div className="ml-4">
-                                    <p className="text-base font-medium text-gray-900">{item.name}</p>
-                                    <p className="mt-1 text-sm text-gray-500">{item.description}</p>
-                                  </div>
-                                
+                                <Image
+                                  src={item.logo}
+                                  width="24"
+                                  height="24"
+                                  alt=""
+                                />
+                                <div className="ml-4">
+                                  <p className="text-base font-medium text-gray-900">
+                                    {item.name}
+                                  </p>
+                                  <p className="mt-1 text-sm text-gray-500">
+                                    {item.description}
+                                  </p>
+                                </div>
                               </Link>
                             ))}
                           </div>
@@ -108,14 +118,23 @@ export default function MainHeader() {
                   </>
                 )}
               </Popover>
-              
-              <Link href="/blog" className="text-base font-medium text-gray-500 hover:text-gray-900">
+
+              <Link
+                href="/blog"
+                className="text-base font-medium text-gray-500 hover:text-gray-900"
+              >
                 Blog
               </Link>
-              <Link href="/about" className="text-base font-medium text-gray-500 hover:text-gray-900">
+              <Link
+                href="/about"
+                className="text-base font-medium text-gray-500 hover:text-gray-900"
+              >
                 About
               </Link>
-              <Link href="/about#contact" className="text-base font-medium text-gray-500 hover:text-gray-900">
+              <Link
+                href="/about#contact"
+                className="text-base font-medium text-gray-500 hover:text-gray-900"
+              >
                 Contact
               </Link>
             </Popover.Group>
@@ -131,7 +150,10 @@ export default function MainHeader() {
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95"
         >
-          <Popover.Panel focus className="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden">
+          <Popover.Panel
+            focus
+            className="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden"
+          >
             <div className="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
               <div className="px-5 pt-5 pb-6">
                 <div className="flex items-center justify-between">
@@ -157,10 +179,10 @@ export default function MainHeader() {
                         href={item.href}
                         className="-m-3 flex items-center rounded-md p-3 hover:bg-gray-50"
                       >
-                        
-                          <Image src={item.logo} width="24" height="24" alt="" />
-                          <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
-                        
+                        <Image src={item.logo} width="24" height="24" alt="" />
+                        <span className="ml-3 text-base font-medium text-gray-900">
+                          {item.name}
+                        </span>
                       </Link>
                     ))}
                   </nav>
@@ -168,13 +190,22 @@ export default function MainHeader() {
               </div>
               <div className="space-y-6 py-6 px-5">
                 <div className="grid grid-cols-1 gap-y-4 gap-x-8">
-                  <Link href="/blog" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                  <Link
+                    href="/blog"
+                    className="text-base font-medium text-gray-900 hover:text-gray-700"
+                  >
                     Blog
                   </Link>
-                  <Link href="/about" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                  <Link
+                    href="/about"
+                    className="text-base font-medium text-gray-900 hover:text-gray-700"
+                  >
                     About
                   </Link>
-                  <Link href="/about#contact" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                  <Link
+                    href="/about#contact"
+                    className="text-base font-medium text-gray-900 hover:text-gray-700"
+                  >
                     Contact
                   </Link>
                 </div>
@@ -184,5 +215,5 @@ export default function MainHeader() {
         </Transition>
       </Popover>
     </div>
-  )
+  );
 }
