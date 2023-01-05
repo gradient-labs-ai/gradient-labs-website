@@ -3,8 +3,7 @@ import React from "react";
 import MainHeader from "../components/MainHeader";
 
 export default function PrivacyPolicy() {
-
-const rawHTML = `
+  const rawHTML = `
 <style>
   [data-custom-class='body'], [data-custom-class='body'] * {
           background: transparent !important;
@@ -62,15 +61,15 @@ word-break: break-word !important;
 
   return (
     <div>
-    <Head>
-      <title>Gradient Labs</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
+      <Head>
+        <title>Gradient Labs</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
-    <MainHeader />
-    <div className="m-5 mt-20">
-      {<div dangerouslySetInnerHTML={{ __html: rawHTML }} />}
+      <MainHeader />
+      <div className="m-5 mt-20">
+        {<div dangerouslySetInnerHTML={{ __html: rawHTML }} />}
+      </div>
     </div>
-  </div>
-  )
+  );
 }
