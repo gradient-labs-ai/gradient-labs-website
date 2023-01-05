@@ -40,7 +40,7 @@ export default function Example() {
                   Go back home
                 </Link>
                 <Link
-                  href="/about#contact"
+                  href="/contact"
                   className="inline-flex items-center rounded-md border border-transparent bg-main-100 px-4 py-2 text-sm font-medium text-main-700 hover:bg-main-200 focus:outline-none focus:ring-2 focus:ring-main-500 focus:ring-offset-2"
                 >
                   Contact support

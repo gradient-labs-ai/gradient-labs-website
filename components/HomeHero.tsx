@@ -52,7 +52,7 @@ export default function HomeHero() {
                   <span className="text-gray-600">
                     Announcing Citation Hero.{" "}
                     <Link
-                      href="/citation-hero"
+                      href="https://citationhero.io"
                       className="font-semibold text-main-600"
                     >
                       <span className="absolute inset-0" aria-hidden="true" />
