@@ -62,7 +62,7 @@ word-break: break-word !important;
   return (
     <div>
       <Head>
-        <title>Gradient Labs</title>
+        <title>Gradient Labs - Privacy Policy</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
