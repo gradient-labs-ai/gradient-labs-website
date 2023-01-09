@@ -19,9 +19,9 @@ const metrics = [
   },
   {
     id: 4,
-    stat: "2/3",
-    emphasis: "White students",
-    rest: "use computers at home vs. half of Black and Hispanic students.",
+    stat: "50%",
+    emphasis: "Black and Hispanic",
+    rest: "students use computers at home vs. 67% of white students.",
   },
 ];
 
