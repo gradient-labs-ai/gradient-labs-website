@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function AboutContact() {
   return (
     <div className="bg-main-50">
@@ -8,12 +10,12 @@ export default function AboutContact() {
         </h2>
         <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
           <div className="inline-flex rounded-md shadow">
-            <a
+            <Link
               href="/contact"
               className="inline-flex items-center justify-center rounded-md border border-transparent bg-main-600 px-5 py-3 text-base font-medium text-white hover:bg-main-700"
             >
               Contact Us
-            </a>
+            </Link>
           </div>
         </div>
       </div>
