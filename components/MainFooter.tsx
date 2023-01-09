@@ -7,7 +7,7 @@ interface IconProps {
 }
 const navigation = {
   products: [
-    { name: "VideoGen", href: "/videogen" },
+    { name: "VideoGen", href: "https://videogen.io?ref=gradientlabs.ai" },
     {
       name: "Citation Hero",
       href: "https://citationhero.io?ref=gradientlabs.ai",

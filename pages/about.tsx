@@ -16,10 +16,11 @@ export default function Aboout() {
       </Head>
 
       <MainHeader />
-      <AboutHero />
-      <AboutStory />
-      <AboutMission />
-      <AboutContact />
+      <div className="mt-16">
+        <AboutMission />
+        <AboutTeam />
+        <AboutContact />
+      </div>
 
       <footer>
         <MainFooter />

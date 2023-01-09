@@ -14,7 +14,7 @@ const products = [
   {
     name: "VideoGen",
     description: "Generate social media videos using AI.",
-    href: "/videogen",
+    href: "https://videogen.io?ref=gradientlabs.ai",
     logo: "/logos/video-logo-red.svg",
   },
   {
@@ -37,7 +37,7 @@ export default function MainHeader() {
           <div className="flex items-center justify-between py-4 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <Link href="/">
-                <span className="sr-only">Your Company</span>
+                <span className="sr-only">Gradient Labs</span>
 
                 <h2 className="inline-flex items-center text-2xl font-bold text-gray-800">
                   <Image
