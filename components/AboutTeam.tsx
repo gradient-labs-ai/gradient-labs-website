@@ -6,16 +6,16 @@ const people = [
     role: "Co-founder, Software Developer",
     imageUrl:
       "https://media.licdn.com/dms/image/C4D03AQEy-JwcootyaQ/profile-displayphoto-shrink_400_400/0/1631231000823?e=1678924800&v=beta&t=p_IFmmdhFxhqddyV8979OsNjoQSwHYZEJfGcBp7yOBY",
-    linkedin: "https://linkedin.com/in/antonckoenig",
-    website: "https://antonkoenig.com",
+    linkedin: "https://linkedin.com/in/dg314",
+    website: "https://dg314.com",
   },
   {
     name: "Anton Koenig",
     role: "Co-founder, Software Developer",
     imageUrl:
       "https://media.licdn.com/dms/image/C4D03AQEViktwmCmMkQ/profile-displayphoto-shrink_400_400/0/1627591391139?e=1678924800&v=beta&t=JSq79wS8s9lXqjes_tU5Y0EK_1i9QkNCiOfeNsrIDPc",
-    linkedin: "https://linkedin.com/in/dg314",
-    website: "https://dg314.com"
+    linkedin: "https://linkedin.com/in/antonckoenig",
+    website: "https://antonkoenig.com",
   },
   // More people...
 ];
